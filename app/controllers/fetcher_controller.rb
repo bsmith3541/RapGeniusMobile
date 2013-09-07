@@ -1,0 +1,2 @@
+class FetcherController < ApplicationController
+end
