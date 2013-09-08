@@ -2,6 +2,7 @@ class FetcherController < ApplicationController
 
 	def getlyrics
 		#x = Net::HTTP.post_form(URI.parse('http://localhost:3000/getlyrics'), params)
+		lyrics = "placeholder"
 		puts(params)
 		lyrics = params["lyrics"]
 		if(lyrics[-1] == ' ')
